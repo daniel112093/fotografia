@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <nav class="nav">
+      <a class="navbar_logo" href="#"
+        ><img src="./img/1.jpg" alt="" height="38" width="38" style="border-radius: 18px;"/></a>
+      <ul class="navbar_link">
+        <li><a href="#">Inico</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+      <button class="nav_toggle" aria-label="Abrir menu">
+        <img src="./img/list.svg" alt="" />
+      </button>
+    </nav>
+    <header class="hero">
+      <video class="hero_bg" autoplay loop muted playsinline>
+        <source src="./img/v2.mp4" />
+      </video>
+
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Bienvenido a nuestro sitio de fotografía</h1>
+        <p>Descripción y texto del hero header</p>
+        <a href="www.google.com" class="btn-inf">Mas informacion</a>
+      </div>
+    </header>
+
+    <section id="section1" class="contenido">
+      <div class="contenido-inner">
+        <h2>Tipos de fotografias mas comunes</h2>
+      </div>
+
+      <section class="cards">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="card-icon">🌄</div>
+              <h3 class="card-title">Fotografía de paisaje</h3>
+            </div>
+            <div class="card-black">
+              
+                <img src="./img/paisaje.png" alt="" height="190" width="250" />
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="card-icon">💻</div>
+              <h3 class="card-title">Framework Web</h3>
+            </div>
+            <div class="card-black">
+              <p class="card-text">Desarrollo de aplicaciones web.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="card-icon">⚛️</div>
+              <h3 class="card-title">Angular</h3>
+            </div>
+            <div class="card-black">
+              <p class="card-text">Desarrollo con Angular.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="card-icon">⚛️</div>
+              <h3 class="card-title">ReactJS</h3>
+            </div>
+            <div class="card-black">
+              <p class="card-text">Desarrollo con React.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+<!--
+    <section>
+      <h1>seccion de listado</h1>
+      <p>lista desordenada</p>
+      <ul style="color: green; font-size: 1.5rem; font-weight: 400">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+      </ul>
+      <p>lista ordenada</p>
+      <ol start="2" reserved>
+        <li>O</li>
+        <li>A</li>
+        <li style="color: blue; font-size: 1.6rem; list-style: armenian">
+          No se
+        </li>
+        <li style="color: gold; font-size: 1.6rem; list-style: inside">
+          no se 2
+        </li>
+      </ol>
+    </section>
+-->
+    <section class="contenido">
+      <div class="contenido-inner">
+        <h2>Conoce al equipo de trabajo</h2>
+      </div>
+
+      <div class="equipo">
+        <article class="miembro">
+          <img src="./img/f.png" alt="" />
+          <div class="datos">
+            <h3>Homero</h3>
+            <p class="cargo">Especialista en foto para paisajes</p>
+          </div>
+        </article>
+        <article class="miembro">
+          <img src="./img/vozz.png" alt="" />
+          <div class="datos">
+            <h3>Buzz Lightyear</h3>
+            <p class="cargo">
+              Especialista en tomar fotos de momentos que parecen de otro
+              planeta.
+            </p>
+          </div>
+        </article>
+        <article class="miembro">
+          <img src="./img/mar.png" alt="" />
+          <div class="datos">
+            <h3>Marcianito</h3>
+            <p class="cargo">Analista en fotografía de ciencia ficción</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="galeria">
+    <h2>Galería</h2>
+    <p>Algunos recursos de nuestra web</p>
+
+    <div class="contenedor-galeria">
+
+        <div class="img-grande">
+        <img src="./img/fotoo.png" alt="">    
+        </div>
+
+        <div class="img-pequena">
+            <img src="./img/fotoo2.png" alt="">
+        </div>
+
+        <div class="img-pequena">
+            <img src="./img/fotoo3.png" alt="">
+        </div>
+
+        <div class="img-pequena">
+            <img src="./img/fotoo4.png" alt="">
+        </div>
+
+        <div class="img-pequena">
+            <img src="./img/fotoo5.png" alt="">
+        </div>
+    </div>
+</section>
+<table class="tabla-pedidos">
+
+    <tr>
+        <th>N° Pedido</th>
+        <th colspan="2">Datos del Cliente</th>
+        <th>Abono</th>
+        <th>Faltante</th>
+        <th>Total</th>
+    </tr>
+
+    <tr>
+        <td>001</td>
+        <td >Carlos Aguilar</td>
+        <td>4431234567</td>
+        <td>$500</td>
+        <td>$1,000</td>
+        <td>$1,500</td>
+    </tr>
+
+    <tr>
+        <td>002</td>
+        <td>Juan Pérez</td>
+        <td>4439876543</td>
+        <td>$800</td>
+        <td>$700</td>
+        <td>$1,500</td>
+    </tr>
+
+    <tr>
+        <td>003</td>
+        <td>Ana López</td>
+        <td>4435554444</td>
+        <td>$1,000</td>
+        <td>$500</td>
+        <td>$1,500</td>
+    </tr>
+
+</table>
+  </body>
+</html>
