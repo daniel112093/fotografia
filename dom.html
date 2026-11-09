@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dejemplo 1: DocumentGetElementy</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .contenedor{
+        padding: 80px;
+    }
+    #titulo{
+        color: #8ba6ae;
+        text-shadow: 2px, 2px, 2px, 8px rgb(250, 247, 247);
+        font-size: 4rem;
+    }
+    .caja{
+        border: 2px solid rgb(0, 22, 132);
+        padding: 20px;
+        width: 500px;
+        margin-bottom: 20px;
+    }
+    #titulo2{
+        color: #8ba6ae;
+        font-size: 2rem;
+    }
+
+</style>
+<body>
+    <h2 id="titulo">Hola DOM</h2>
+
+<div class="contenedor">
+<div id="caja" class="caja">
+    ESta es una caja que vamos a manipular
+</div>
+<button id="btn-texto">Cambiar texto</button>
+<button id="btn-color">Cambiar color</button>
+<button id="btn-ocultar">Mostrar / Ocultar</button>
+</div>
+
+
+<h3 id="titulo2">Ejemplo con input</h3>
+<input type="text" id="nombre" placeholder="Escribe tu nombre">
+<button id="btn-saludar"> Saludar</button>
+<p id="saludo"> Aqui nos muestra la respuesta</p>
+</body>
+</html>
+<script src="./js/dom.js"></script>
