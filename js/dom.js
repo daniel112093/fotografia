@@ -29,8 +29,9 @@ botonOcultar.addEventListener("click", () => {
 });
 
 //saludar
-let saludo = document.getElementById("btn-saludar").addEventListener("click", ()=>{
+ let saludo = document.getElementById("btn-saludar").addEventListener("click", ()=>{
     let nombre = document.getElementById("nombre").value;
     document.getElementById("saludo").textContent =
     nombre ? `¡Hola, ${nombre} !`: "escribe tu nombre primero: ";
-});
+}); 
+
